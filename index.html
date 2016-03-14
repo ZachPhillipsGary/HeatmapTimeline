@@ -7,16 +7,37 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/vis/4.11.0/vis.min.css" type="text/css">
     <script src="http://cdnjs.cloudflare.com/ajax/libs/vis/4.11.0/vis.min.js"></script>
    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/vis/4.11.0/vis.min.css" type="text/css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   </head>
   <body>
-    <div id="timeline" class="timeline"></div>
-    <div id="map" class="map"></div>
-    <form>
-      <label>radius size</label>
-      <input id="radius" type="range" min="1" max="50" step="1" value="5"/>
-      <label>blur size</label>
-      <input id="blur" type="range" min="1" max="50" step="1" value="15"/>
-    </form>
+
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+      <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+      <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="home" class="tab-pane fade in active">
+        <div class="container-fluid">
+          <div class="row">
+        <div id="timeline" class="timeline"></div>
+      </div>
+      <div class="row">
+        <div id="map" class="map"></div>
+      </div>
+      </div>
+      </div>
+      <div id="menu1" class="tab-pane fade">
+        <h3>Menu 1</h3>
+        <p>Some content in menu 1.</p>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <h3>Menu 2</h3>
+        <p>Some content in menu 2.</p>
+      </div>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>

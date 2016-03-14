@@ -3,8 +3,9 @@ function HeatMapTimeLine(parameters) {
   var map = new ol.Map({
     target: parameters['mapId'],
     view: new ol.View({
-      center: [0, 0],
-      zoom: 2
+      center: [-8715044.216962654, 4658378.251811782], //center at DC
+      projection: "EPSG:3857",
+      zoom: 7
     })
   });
   /*
@@ -17,6 +18,11 @@ var mapLayers = {
   add: function (layer) {
     this.layers.push(layer);
     map.addLayer(layer);
+  },
+  redraw: function() {
+    for (var l in this.layers) {
+      map.addLayer(l);
+    }
   },
   remove: function(layer) {
 
@@ -31,16 +37,24 @@ var mapLayers = {
         start = newStart;
         end = newEnd;
         //onSet, update visible features in each layer.
-        map.getLayers().clear();
-        console.log(mapLayers.layers[1].getSource().getFeatures());
-      mapLayers.layers[1].getSource().getFeatures().forEach(function(event){
+  //   map.getLayers().clear();
+  //      console.log(mapLayers.layers[1].getSource().getFeatures());
+  var features =  mapLayers.layers[1].getSource().getFeatures();
+  var visibleFeatures;
+      features.forEach(function(event){
+          console.log(event);
             const featureDateRaw = event["id_"]; //get date for timeline
             //process date into valid format
             const dateParts = featureDateRaw.split(" ");
             const month  = "JanFebMarAprMayJunJulAugSepOctNovDec".indexOf(dateParts[1]) / 3 + 1; // convert month string into number
             const date = new Date(dateParts[0],Math.round(month),dateParts[2]);
-          console.log(this);
+            if (!(this["start"] <= date <= this["end"])) {
+                  console.log(event);
+                  mapLayers.layers[1].removeFeature(event);
+            }
+
         },{"start":this.start,"end":this.end,mapLayers});
+        mapLayers.redraw()
         map.render();
 
       }
@@ -75,8 +89,7 @@ var mapLayers = {
          currentTimeframe.set(start,end);
       });
   };
-var blur = document.getElementById('blur');
-var radius = document.getElementById('radius');
+
 
 var vector = new ol.layer.Heatmap({
   source: new ol.source.Vector({
@@ -86,8 +99,8 @@ var vector = new ol.layer.Heatmap({
       extractStyles: false
     })
   }),
-  blur: parseInt(blur.value, 10),
-  radius: parseInt(radius.value, 10)
+  blur: 30,
+  radius: 30
 });
 //
 vector.getSource().on('addfeature', function(event) {
@@ -120,18 +133,16 @@ var raster = new ol.layer.Tile({
 //add map layers
 mapLayers.add(raster);
 mapLayers.add(vector);
-blur.addEventListener('input', function() {
-  vector.setBlur(parseInt(blur.value, 10));
-});
-
-radius.addEventListener('input', function() {
-  vector.setRadius(parseInt(radius.value, 10));
-});
 
 this.drawTimeline(parameters.timelineId);
 } else  {
   alert("invalid constructor");
 }
+map.on('singleclick', function(evt) {
+    var coordinates = map.getEventCoordinate(evt.originalEvent);
+    console.log(coordinates[0], coordinates[1]);
+    console.log(ol.proj.transform([coordinates[0], coordinates[1]], 'EPSG:3857', new ol.source.OSM().getProjection()));
 
+}, this);
 };
 var app =  new HeatMapTimeLine({mapId:"map",timelineId:"timeline"});
