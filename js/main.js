@@ -148,4 +148,5 @@ map.on('singleclick', function(evt) {
 
 }, this);
 };
-var app =  new HeatMapTimeLine({mapId:"map",timelineId:"timeline"});
+var app =  new HeatMapTimeLine({mapId:"map1",timelineId:"timeline1"});
+var app2 =  new HeatMapTimeLine({mapId:"map2",timelineId:"timeline2"});

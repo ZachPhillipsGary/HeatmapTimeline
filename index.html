@@ -20,15 +20,17 @@
    }
    .timearrowleft {
      color: #D5DDF6;
-     position: fixed;
-     top:0;
-     left:0;
+
+   }
+   .timearrowright:hover {
+     color:#4582ec;
+   }
+   .timearrowleft:hover {
+     color:#4582ec;
    }
    .timearrowright {
      color: #D5DDF6;
-     position: fixed;
-     top:0;
-     right:0;
+
    }
    #timeline {
      width:100%;
@@ -36,33 +38,44 @@
    </style>
   </head>
     <body>
-      <h1 class="timearrowleft"><i class="fa fa-arrow-circle-o-left"></i></h1>
-     <h1 class="timearrowright"><i class="fa fa-arrow-circle-o-right"></i></h1>
+
     <div class="container">
       <ul class="nav nav-pills">
-        <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
-        <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
-        <li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
-        <li><a data-toggle="pill" href="#menu3">Menu 3</a></li>
-        <li><a data-toggle="pill" href="#menu4">Menu 2</a></li>
+        <li class="active"><a data-toggle="pill" href="#home">Rates of Malarial Disease in the Atlantic Region,1861-1866</a></li>
+        <li><a data-toggle="pill" href="#menu1">Confederate Army of Northern Virginia</a></li>
+        <li><a data-toggle="pill" href="#menu2">Union Department ofthe Shenandoah </a></li>
+        <li><a data-toggle="pill" href="#menu3">The Confederate Army of the Potomac</a></li>
+        <li><a data-toggle="pill" href="#menu4">The Union Army of the Potomac</a></li>
         <li><a data-toggle="pill" href="#menu5">Menu 3</a></li>
-        <li><a data-toggle="pill" href="#menu6">Menu 6</a></li>
+        <li><a data-toggle="pill" href="#menu6">About Author</a></li>
+        <li><a  href="https://github.com/ZachPhillipsGary/HeatmapTimeline"><i class="fa fa-github"></i> Project Github</a></li>
+
       </ul>
       <div class="tab-content">
         <div id="home" class="tab-pane fade in active">
 
           <div class="container-fluid">
             <div class="row">
-        <div id="timeline" class="timeline"></div>
+                <div class="hidden-xs ol-sm-1 col-md-1"> <h1 class="timearrowleft"><i data-toggle="tooltip" title="Go backwards in time" data-placement="bottom" class="fa fa-arrow-circle-o-left"></i></h1></div>
+        <div class="col-xs-12 col-sm-10 col-md-10"  id="timeline1" class="timeline"></div>
+        <div class="hidden-xs col-sm-1 col-md-1"> <h1 class="timearrowright"   ><i data-toggle="tooltip" title="Go forwards in time" data-placement="bottom" class="fa fa-arrow-circle-o-right"></i></h1></div>
+
         </div>
         <div class="row">
-          <div id="map" class="map"></div>
+          <div id="map1" class="map"></div>
         </div>
         </div>
         </div>
         <div id="menu1" class="tab-pane fade">
           <h3>Menu 1</h3>
-          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="container-fluid">
+            <div class="row">
+        <div id="timeline2" class="timeline"></div>
+        </div>
+        <div class="row">
+          <div id="map2" class="map"></div>
+        </div>
+        </div>
         </div>
         <div id="menu2" class="tab-pane fade">
           <h3>Menu 2</h3>
@@ -76,8 +89,12 @@
     </div>
 
 
-
-
+<!-- init bootstrap tooltips -->
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 
     <script src="./js/main.js"></script>
   </body>
