@@ -88,6 +88,7 @@ var mapLayers = {
           currentFeatures.forEachFeature(function(val){console.log(val)});
           var currentHeatMap = new ol.layer.Heatmap({ source: currentFeatures, blur: 35,
           radius: 50 });
+          map.addLayer(raster);
           map.addLayer(currentHeatMap);
           map.render();
       });
