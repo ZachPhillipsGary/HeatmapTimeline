@@ -20,8 +20,10 @@ var mapLayers = {
     map.addLayer(layer);
   },
   redraw: function() {
-    for (var l in this.layers) {
-      map.addLayer(l);
+    for (var i = 0; i < this.layers.length; i++) {
+    var layer = this.layers[i];
+
+    //  this.add());
     }
   },
   remove: function(layer) {
@@ -36,24 +38,7 @@ var mapLayers = {
     set: function(newStart,newEnd){
         start = newStart;
         end = newEnd;
-        //onSet, update visible features in each layer.
-  //   map.getLayers().clear();
-  //      console.log(mapLayers.layers[1].getSource().getFeatures());
-  var features =  mapLayers.layers[1].getSource().getFeatures();
-  var visibleFeatures;
-      features.forEach(function(event){
-          console.log(event);
-            const featureDateRaw = event["id_"]; //get date for timeline
-            //process date into valid format
-            const dateParts = featureDateRaw.split(" ");
-            const month  = "JanFebMarAprMayJunJulAugSepOctNovDec".indexOf(dateParts[1]) / 3 + 1; // convert month string into number
-            const date = new Date(dateParts[0],Math.round(month),dateParts[2]);
-            if (!(this["start"] <= date <= this["end"])) {
-                  console.log(event);
-                  mapLayers.layers[1].removeFeature(event);
-            }
-
-        },{"start":this.start,"end":this.end,mapLayers});
+        map.getLayers().clear();
         mapLayers.redraw()
         map.render();
 
@@ -84,9 +69,27 @@ var mapLayers = {
           console.log(properties);
       });
       timeline.on('rangechanged',function (properties) {
-         start = properties.start;
-         end = properties.end;
-         currentTimeframe.set(start,end);
+        map.getLayers().clear();
+          var currentFeatures =  new ol.source.Vector({ projection: "EPSG:3857" });
+          vector.getSource().forEachFeature(function(item){
+          //  console.log(item);
+            const Item = item['id_'];
+            //process date into valid format
+            const dateParts = Item.split(" ");
+            var month  = "JanFebMarAprMayJunJulAugSepOctNovDec".indexOf(dateParts[1]) / 3 ; // convert month string into number
+            var date = new Date(dateParts[0],Math.round(month),dateParts[2]);
+            if ((properties.start <= date) && (date <= properties.end)) {
+              //keep
+              currentFeatures.addFeature(item);
+            } else {
+                //don't display
+            }
+          },properties);
+          currentFeatures.forEachFeature(function(val){console.log(val)});
+          var currentHeatMap = new ol.layer.Heatmap({ source: currentFeatures, blur: 35,
+          radius: 50 });
+          map.addLayer(currentHeatMap);
+          map.render();
       });
   };
 
@@ -99,8 +102,8 @@ var vector = new ol.layer.Heatmap({
       extractStyles: false
     })
   }),
-  blur: 30,
-  radius: 30
+  blur: 35,
+  radius: 15
 });
 //
 vector.getSource().on('addfeature', function(event) {
@@ -110,14 +113,13 @@ vector.getSource().on('addfeature', function(event) {
   const featureDateRaw = event.feature["id_"]; //get date for timeline
   //process date into valid format
   const dateParts = featureDateRaw.split(" ");
-  const month  = "JanFebMarAprMayJunJulAugSepOctNovDec".indexOf(dateParts[1]) / 3 + 1; // convert month string into number
-  const date = new Date(dateParts[0],Math.round(month),dateParts[2]);
+  var month  = "JanFebMarAprMayJunJulAugSepOctNovDec".indexOf(dateParts[1]) / 3 ; // convert month string into number
+  var date = new Date(dateParts[0],Math.round(month),dateParts[2]);
   //add VisJS Object for feature
   this.timelineElements.add([{
     'start': date,
     'content': featureDateRaw
   }]);
-
     var name = event.feature.get('name');
     var magnitude = parseFloat(name.substr(2));
     event.feature.set('weight', magnitude*100 - 5);
