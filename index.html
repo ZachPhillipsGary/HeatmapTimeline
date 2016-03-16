@@ -35,6 +35,9 @@
    #timeline {
      width:100%;
    }
+   li>a{
+     border-color: #97B0F8;
+   }
    </style>
   </head>
     <body>
@@ -47,18 +50,20 @@
         <li><a data-toggle="pill" href="#menu3">The Confederate Army of the Potomac</a></li>
         <li><a data-toggle="pill" href="#menu4">The Union Army of the Potomac</a></li>
         <li><a data-toggle="pill" href="#menu5">Menu 3</a></li>
-        <li><a data-toggle="pill" href="#menu6">About Author</a></li>
-        <li><a  href="https://github.com/ZachPhillipsGary/HeatmapTimeline"><i class="fa fa-github"></i> Project Github</a></li>
+        <li class="hidden-xs hidden-sm "><a href="https://github.com/iperman16">Author Info</a></li>
+        <li class="hidden-xs hidden-sm "><a   href="https://github.com/ZachPhillipsGary/HeatmapTimeline"><i class="fa fa-github"></i> Project Github</a></li>
+          <li class="hidden-xs hidden-sm "><a  href="http://www.wooster.edu/academics/areas/history/">COW History</a></li>
 
       </ul>
       <div class="tab-content">
         <div id="home" class="tab-pane fade in active">
-
           <div class="container-fluid">
+            <div class="well row"><p>	The following maps display a contrast between the rates of malarial disease in the Federal Army of the Potomac and its Confederate counterpart from July 1, 1861 to March 31, 1862. This data is taken from Table XXXVI of Charles Smart's Medical and Surgical History of the War of the Rebellion. (Smart, 103) The data on the heat maps displays the total number of malarial cases recorded monthly for each army between these dates. From the map, it can be concluded that the Federal Army of the Potomac suffered more from malarial disease in the late summer months than the Confederate Army of the Potomac.
+</p></div>
             <div class="row">
-                <div class="hidden-xs ol-sm-1 col-md-1"> <h1 class="timearrowleft"><i data-toggle="tooltip" title="Go backwards in time" data-placement="bottom" class="fa fa-arrow-circle-o-left"></i></h1></div>
-        <div class="col-xs-12 col-sm-10 col-md-10"  id="timeline1" class="timeline"></div>
-        <div class="hidden-xs col-sm-1 col-md-1"> <h1 class="timearrowright"   ><i data-toggle="tooltip" title="Go forwards in time" data-placement="bottom" class="fa fa-arrow-circle-o-right"></i></h1></div>
+                <div class="hidden-xs hidden-sm col-md-1"> <h1 class="timearrowleft"><i data-toggle="tooltip" title="Go backwards in time" data-placement="bottom" class="fa fa-arrow-circle-o-left"></i></h1></div>
+        <div class="col-xs-12 col-sm-12 col-md-10"  id="timeline1" class="timeline"></div>
+        <div class="hidden-xs hidden-sm col-sm-1 col-md-1"> <h1 class="timearrowright"   ><i data-toggle="tooltip" title="Go forward in time" data-placement="bottom" class="fa fa-arrow-circle-o-right"></i></h1></div>
 
         </div>
         <div class="row">
@@ -67,10 +72,12 @@
         </div>
         </div>
         <div id="menu1" class="tab-pane fade">
-          <h3>Menu 1</h3>
           <div class="container-fluid">
             <div class="row">
-        <div id="timeline2" class="timeline"></div>
+                <div class="hidden-xs hidden-sm col-md-1"> <h1 class="timearrowleft"><i data-toggle="tooltip" title="Go backwards in time" data-placement="bottom" class="fa fa-arrow-circle-o-left"></i></h1></div>
+        <div class="col-xs-12 col-sm-12 col-md-10"  id="timeline2" class="timeline"></div>
+        <div class="hidden-xs hidden-sm col-sm-1 col-md-1"> <h1 class="timearrowright"   ><i data-toggle="tooltip" title="Go forward in time" data-placement="bottom" class="fa fa-arrow-circle-o-right"></i></h1></div>
+
         </div>
         <div class="row">
           <div id="map2" class="map"></div>
@@ -85,8 +92,18 @@
           <h3>Menu 3</h3>
           <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
         </div>
+        <div id="menu5" class="tab-pane fade">
+          <h3>Intro</h3>
+<p>      This digital map project has been conducted in partial fulfillment of the College of Wooster's Senior Independent Study. This map project, displaying malarial data in Virginia and the Atlantic Region during the American Civil War, accompanies an Independent Study conducted by History Major and Geology Minor, Isabel Perman (College of Wooster class of 2016). This Independent Study aims to conduct an environmental history of Civil War Virginia through the examination of the natural environment and mosquito-borne disease. It makes the argument that the relationship that existed between the War and the natural environment was a dynamic one in which the War effected the land and the land effected the War. This map is purpose is to provide this I.S. with a spatial history component that displays the impact of malaria on the War.
+
+      The data for this project has been taken from U.S. medical inspector Charles Smart's 1888 work, The Medical and Surgical History of the War of the Rebellion. Five separate maps displaying monthly malarial rates during the War make up this project. The maps under the first tab compare the rates of malaria between the Federal and Confederate Armies of the Potomac from 1861-1862. The maps under the second tab compare the rates of malaria between the Federal Department of the Shenandoah and the Confederate Army of Virginia in 1862. The map under the third tab displays monthly malarial rates for every Federal army and department operating in the Atlantic Region from 1862-1866. The "Atlantic Region" is defined by Smart as consisting of the Middle Department, the Department of the Shenandoah, the Army of the Potomac, the Department of the Rappahannock, the Department of Virginia, the Department of North Carolina, the Department of the South, the Department of the East, the Department of Washington, and the Middle Division. (Smart, 19,98) In order to apply Smart's malarial data to a specific latitude and longitude, it was correlated to the locations of the armies and departments operating in the Atlantic Region based on the date. From the viewing of these maps, it can be concluded that the rates of malarial disease increased in the Atlantic Region of the U.S. in the summer months and as the War progressed. The rates of malaria in the summers of the later years of the War are the highest compared to the rest of Smart's data. The development of this map has provided my readers the opportunity to engage with my topic on a number of intellectual levels.
+</p>
+<hr>
+
+        </div>
       </div>
     </div>
+<!-- begin modals -->
 
 
 <!-- init bootstrap tooltips -->

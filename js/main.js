@@ -14,36 +14,13 @@ function HeatMapTimeLine(parameters) {
   */
 this.timelineElements = new vis.DataSet({}); //list of visJS map objects
 var mapLayers = {
-  layers: [],
-  add: function (layer) {
-    this.layers.push(layer);
-    map.addLayer(layer);
-  },
-  redraw: function() {
-    for (var i = 0; i < this.layers.length; i++) {
-    var layer = this.layers[i];
-
-    //  this.add());
-    }
-  },
-  remove: function(layer) {
-
+  elements: [],
+  add: function(element) {
+    this.elements.push(element);
+    map.addLayer(element);
   }
-};
+}
 
-  //JS Object magic to addEventListeners for start and end date changes
-  var currentTimeframe = {
-     start: 0,
-     end: 0,
-    set: function(newStart,newEnd){
-        start = newStart;
-        end = newEnd;
-        map.getLayers().clear();
-        mapLayers.redraw()
-        map.render();
-
-      }
-  };
   this.drawTimeline = function (drawPoint) {
     const items = this.timelineElements;
 
@@ -149,4 +126,4 @@ map.on('singleclick', function(evt) {
 }, this);
 };
 var app =  new HeatMapTimeLine({mapId:"map1",timelineId:"timeline1"});
-var app2 =  new HeatMapTimeLine({mapId:"map2",timelineId:"timeline2"});
+//var app2 =  new HeatMapTimeLine({mapId:"map1",timelineId:"timeline1"});
