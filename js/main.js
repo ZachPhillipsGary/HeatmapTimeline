@@ -1,6 +1,48 @@
+
 function HeatMapTimeLine(parameters) {
+  var app = {}; //Define object to store custom control
+
+       //
+       // Define heapmap legend.
+       //
+
+
+       /**
+        * @constructor
+        * @extends {ol.control.Control}
+        * @param {Object=} opt_options Control options.
+        */
+       app.HeatMapLegend = function(opt_options) {
+
+         var options = opt_options || {};
+
+         var button = document.createElement('p');
+         button.innerHTML = '100&nbsp;<span data-toggle="tooltip" data-placement="bottom" title="Fewer reported cases of malarial disease." style="color:#00f">&block;</span><span style="color:#0ff;">&block;</span><span style="color:#0f0;">&block;</span><span style="color:yellow;">&block;</span><span data-toggle="tooltip" data-placement="bottom" title="More reported cases of malarial disease." style="color:#f00;">&block;</span>&nbsp;1000+';
+
+         var this_ = this;
+
+         var element = document.createElement('div');
+         element.className = 'legend ol-unselectable ol-control';
+         element.appendChild(button);
+
+         ol.control.Control.call(this, {
+           element: element,
+           target: options.target
+         });
+
+       };
+       ol.inherits(app.HeatMapLegend, ol.control.Control);
   if(parameters.hasOwnProperty('mapId') && parameters.hasOwnProperty('timelineId') && parameters.hasOwnProperty('fileName')) {
   var map = new ol.Map({
+    controls: ol.control.defaults({
+          rotateOptions: false,
+          zoom: false,
+          attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+            collapsible: true
+          })
+        }).extend([
+          new app.HeatMapLegend()
+        ]),
     target: parameters['mapId'],
     view: new ol.View({
       center: [-8715044.216962654, 4658378.251811782], //center at DC
