@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>Rates of Malarial Disease in the Atlantic Region,1861-1866</name>
+        <atom:author>
+            <atom:name>College of Wooster History Department</atom:name>
+        </atom:author>
+        <Folder>
+            <Placemark id="1861 Jul 21">
+                <name>13.1 - The First Battle of Bull Run (U.S. Army of the Potomac)</name>
+                <cases>13.1</cases>
+                <Point>
+                    <coordinates>-77.5227,38.8147,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1861 Aug 28">
+                <name>37.5 - Battle of Hatteras Inlet Batteries (U.S. Department of Virginia)</name>
+                <cases>37.5</cases>
+                <Point>
+                    <coordinates>-75.7645,35.1864,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1861 Aug 29">
+                <name>37.5 - Battle of Hatteras Inlet Batteries (U.S. Department of Virginia)</name>
+                <cases>37.5</cases>
+                <Point>
+                    <coordinates>-75.7645,35.1864,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 Jan 7">
+                <name>13.5 - The Department of North Carolina Created</name>
+                <cases>13.5</cases>
+                <Point>
+                    <coordinates>-77.069167,35.109167,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 Jan 7">
+                <name>13.5 - Roanoke Island Captured by Burnside's Forces (The U.S. Department of North Carolina)</name>
+                <cases>13.5</cases>
+                <Point>
+                    <coordinates>-75.65,35.883333,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 Jan 7">
+                <name>13.5 - New Bern, NC Captured by Burnside's Forces (The U.S. Department of North Carolina)</name>
+                <cases>13.5</cases>
+                <Point>
+                    <coordinates>-77.069167,35.109167,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 Jan 7">
+                <name>13.5 - Morehead City, NC Captured by Burnside's Forces (The U.S. Department of North Carolina)</name>
+                <cases>13.5</cases>
+                <Point>
+                    <coordinates>-76.746667,34.727778,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 Jan 7">
+                <name>13.5 - Beaufort, NC Captured by Burnside's Forces</name>
+                <cases>13.5</cases>
+                <Point>
+                    <coordinates>-76.65,34.716667,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 Apr 4">
+                <name>20.8 - The U.S. Department of the Rappahannock Created</name>
+                <cases>20.8</cases>
+                <Point>
+                    <coordinates>-78.85,38.483333,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 May 30">
+                <name>31 - Shields Recaptures Front Royal (The U.S. Department of the Rappahannock)</name>
+                <cases>31</cases>
+                <Point>
+                    <coordinates>-78.1923,38.936,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 June 2">
+                <name>30.1 - Shields' and Ords' Divisions pursue Jackson up the Luray Valley (The U.S. Department of the Rappahannock)</name>
+                <cases>30.1</cases>
+                <Point>
+                    <coordinates>-78.399167,38.749722,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 June 9">
+                <name>30.1 - Jackson defeats Sheilds at Port Republic (The U.S. Department of the Rappahannock)</name>
+                <cases>30.1</cases>
+                <Point>
+                    <coordinates>-78.7933,38.3002,0</coordinates>
+                </Point>
+            </Placemark>
+    <Placemark id="1862 Aug 28">
+                <name>41.6 - The Second Battle of Bull Run (The U.S. Army of the Potomac)</name>
+                <cases>41.6</cases>
+                <Point>
+                    <coordinates>-77.52123,38.81246,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1862 Apr 4">
+                <name>20.8 - The U.S. Department of the Rappahannock Created</name>
+                <cases>20.8</cases>
+                <Point>
+                    <coordinates>-78.85,38.483333,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1863 Jan 1">
+                <name>23.5 - The U.S. Second Department of the East Created</name>
+                <cases>23.5</cases>
+                <Point>
+                    <coordinates>-73.68925,42.731667,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1863 Feb 2">
+                <name>18.1 - The U.S. Department of Washington Re-Created</name>
+                <cases>18.1</cases>
+                <Point>
+                    <coordinates>-76.93,38.941389,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 5">
+                <name>Battle of the Wilderness (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.7597,38.3164,0</coordinates>
+                </Point>
+               </Placemark>
+<Placemark id="1864 May 6">
+                <name>28.5 - Battle of the Wilderness (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.7597,38.3164,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 May 7">
+                <name>28.5 - Battle of the Wilderness (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.7597,38.3164,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 8">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 9">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 10">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+         <Placemark id="1864 May 11">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 11">
+                <name>28.5 - Battle of Yellow Tavern (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4552,37.6599,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 May 12">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 13">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 14">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 15">
+                <name>Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 15">
+                <name>28.5 - Battle of New Market (U.S. Middle Division)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-78.67825,38.65515,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 16">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 17">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 18">
+                <name>Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 19">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 20">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 21">
+                <name>28.5 - Battle of Spotsylvania Court House (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,38.2242,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1864 May 23">
+                <name>28.5 - Battle of North Anna (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,37.8862,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 May 24">
+                <name>28.5 - Battle of North Anna (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,37.8862,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 May 25">
+                <name>28.5 - Battle of North Anna (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,37.8862,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 May 26">
+                <name>28.5 - Battle of North Anna (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.4943,37.8862,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 May 31">
+                <name>28.5 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>28.5</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 1">
+                <name>38.3 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 2">
+                <name>38.3 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 3">
+                <name>38.3 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 4">
+                <name>38.3 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 5">
+                <name>38.3 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 5">
+                <name>38.3 - Battle of the Piedmont (U.S. Middle Division)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-78.8994,38.2142,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 6">
+                <name>38.3 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 6">
+                <name>38.3 - Battle of the Piedmont (U.S. Middle Division)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-78.8994,38.2142,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 7">
+                <name>38.3 - Battle of Cold Harbor</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 8">
+                <name>38.3 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 9">
+                <name>38.3 - Battle of Cold Harbor</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 10">
+                <name>38.3 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 11">
+                <name>38.3 - Battle of Cold Harbor (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 11">
+                <name>38.3 - Battle of Trevilian Station (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-78.06604,38.04973,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 12 (U.S. Army of the Potomac)">
+                <name>38.3 - Battle of Cold Harbor</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.285,37.59,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 12 (U.S. Army of the Potomac)">
+                <name>38.3 - Battle of Trevilian Station</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-78.06604,38.04973,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 17">
+                <name>38.3 - Battle of Lynchburg (U.S. Middle Division)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-78.8994,38.2142,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 17">
+                <name>38.3 - Battle of Lynchburg (U.S. Middle Division)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-78.8994,38.2142,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jun 24">
+                <name>38.3 - Battle of St. Mary's Church (U.S. Army of the Potomac)</name>
+                <cases>38.3</cases>
+                <Point>
+                    <coordinates>-77.1506,37.4322,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jul 9">
+                <name>57.6 - Battle of Monocacy (U.S. Middle Division)</name>
+                <cases>57.6</cases>
+                <Point>
+                    <coordinates>-77.392,39.3711,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jul 11">
+                <name>57.6 - Battle of Fort Stevens (U.S. Middle Division)</name>
+                <cases>57.6</cases>
+                <Point>
+                    <coordinates>-77.0288,38.96641,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jul 12">
+                <name>57.6 - Battle of Fort Stevens (U.S. Middle Division)</name>
+                <cases>57.6</cases>
+                <Point>
+                    <coordinates>-7.0288,38.96641,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jul 16">
+                <name>57.6 - Battle of Heaton's Crossroads (U.S. Middle Division)</name>
+                <cases>57.6</cases>
+                <Point>
+                    <coordinates>-77.0288,38.96641,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jul 17">
+                <name>57.6 - Battle of Cool Spring (U.S. Middle Division)</name>
+                <cases>57.6</cases>
+                <Point>
+                    <coordinates>-77.865,39.1457,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jul 18">
+                <name>57.6 - Battle of Cool Spring (U.S. Middle Division)</name>
+                <cases>57.6</cases>
+                <Point>
+                    <coordinates>-77.865,39.1457,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jul 20">
+                <name>57.6 - Battle of Rutherford's Farm (U.S. Middle Division)</name>
+                <cases>57.6</cases>
+                <Point>
+                    <coordinates>-78.133333,39.219333,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Jul 24">
+                <name>57.6 - Battle of Second Kernstown (U.S. Middle Division)</name>
+                <cases>57.6</cases>
+                <Point>
+                    <coordinates>-78.1953,39.13951,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Aug 1">
+                <name>57.6 - Battle of Folck's Mill (U.S. Middle Division)</name>
+                <cases>65.3</cases>
+                <Point>
+                    <coordinates>-78.753,39.6639,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Aug 7">
+                <name>65.3 - Battle of Moorefield (U.S. Middle Division)</name>
+                <cases>65.3</cases>
+                <Point>
+                    <coordinates>-78.9645,39.0941,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Aug 16">
+                <name>65.3 - Battle of Guard Hill (U.S. Middle Division)</name>
+                <cases>65.3</cases>
+                <Point>
+                    <coordinates>-78.200139,38.953056,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Aug 21">
+                <name>65.3 - Battle of Summit Point (U.S. Middle Division)</name>
+                <cases>65.3</cases>
+                <Point>
+                    <coordinates>-77.9586,39.2499,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Aug 25">
+                <name>65.3 - Battle of Smithfield Crossing (U.S. Middle Division)</name>
+                <cases>65.3</cases>
+                <Point>
+                    <coordinates>-77.9824,39.308,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Aug 26">
+                <name>65.3 - Battle of Smithfield Crossing (U.S. Middle Division)</name>
+                <cases>65.3</cases>
+                <Point>
+                    <coordinates>-77.9824,39.308,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Aug 27">
+                <name>65.3 - Battle of Smithfield Crossing (U.S. Middle Division)</name>
+                <cases>65.3</cases>
+                <Point>
+                    <coordinates>-77.9824,39.308,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Aug 28">
+                <name>65.3 - Battle of Smithfield Crossing (U.S. Middle Division)</name>
+                <cases>65.3</cases>
+                <Point>
+                    <coordinates>-77.9824,39.308,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Aug 29">
+                <name>65.3 - Battle of Smithfield Crossing (U.S. Middle Division)</name>
+                <cases>65.3</cases>
+                <Point>
+                    <coordinates>-77.9824,39.308,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Sep 3">
+                <name>73.7 - Battle of Berryville (U.S. Middle Division)</name>
+                <cases>73.7</cases>
+                <Point>
+                    <coordinates>-77.997556,39.162083,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Sep 4">
+                <name>73.7 - Battle of Berryville (U.S. Middle Division)</name>
+                <cases>73.7</cases>
+                <Point>
+                    <coordinates>-77.997556,39.162083,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Sep 19">
+                <name>73.7 - Battle of Third Winchester or Opequon (U.S. Middle Division)</name>
+                <cases>73.7</cases>
+                <Point>
+                    <coordinates>-78.1325,39.1956,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Sep 21">
+                <name>73.7 - Battle of Fisher's Hill (U.S. Middle Division)</name>
+                <cases>73.7</cases>
+                <Point>
+                    <coordinates>-78.3959,38.9838,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Sep 22">
+                <name>73.7 - Battle of Fisher's Hill (U.S. Middle Division)</name>
+                <cases>73.7</cases>
+                <Point>
+                    <coordinates>-78.3959,38.9838,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Oct 9">
+                <name>68.7 - Battle of Tom's Brook (U.S. Middle Division)</name>
+                <cases>68.7</cases>
+                <Point>
+                    <coordinates>-78.4458,38.9429,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1864 Oct 19">
+                <name>73.7 - Battle of Cedar Creek (U.S. Middle Division)</name>
+                <cases>73.7</cases>
+                <Point>
+                    <coordinates>-78.3038,39.02081,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1865 Jan 19">
+                <name>26.8 - U.S. Department of Virginia Re-Created</name>
+                <cases>26.8</cases>
+                <Point>
+                    <coordinates>-76.3075,37.003611,0</coordinates>
+                </Point>
+            </Placemark>
+<Placemark id="1865 Jan 31">
+                <name>26.8 - The U.S. Department of North Carolina Re-Created to include Fort Fisher</name>
+                <cases>26.8</cases>
+                <Point>
+                    <coordinates>-77.9194,33.9717,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1865 Jan 31">
+                <name>26.8 - The U.S. Department of North Carolina Re-Created to include Wilmington</name>
+                <cases>26.8</cases>
+                <Point>
+                    <coordinates>-78.201389,37.849444,0</coordinates>
+                </Point>
+		 </Placemark>
+<Placemark id="1865 Apr 65">
+                <name>28.1 - Area added to the U.S. Department of Virginia</name>
+                <cases>28.1</cases>
+                <Point>
+                    <coordinates>-78.85,38.483333,0</coordinates>
+                </Point>
+            </Placemark>
+
+        </Folder>
+    </Document>
+</kml>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rates of Malarial Disease in the Atlantic Region,1861-1866</title>
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.13.1/css/ol.css" type="text/css">
+    <script src="http://openlayers.org/en/v3.13.1/build/ol-debug.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/vis/4.11.0/vis.min.css" type="text/css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vis/4.11.0/vis.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <style>
+        #map {
+            height: 30%;
+        }
+
+        .nav-pills>li>a {
+            background-color: #D5DDF6;
+        }
+
+        .timearrowleft {
+            color: #D5DDF6;
+        }
+
+        .timearrowright:hover {
+            color: #4582ec;
+        }
+
+        .timearrowleft:hover {
+            color: #4582ec;
+        }
+
+        .timearrowright {
+            color: #D5DDF6;
+        }
+
+        #timeline {
+            width: 100%;
+        }
+
+        li>a {
+            border-color: #97B0F8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+      <ul class="nav nav-pills">
+        <li><a data-toggle="pill" href="description.html">Home</a></li>
+            <li class="active"><a data-toggle="pill" href="Rates-of-Malarial-Disease-in-the-Atlantic-Region,1861-1866.html">Rates of Malarial Disease in the Atlantic Region,1861-1866</a></li>
+            <li><a  href="Confederate-Army-of-Northern-Virginia.html">Confederate Army of Northern Virginia</a></li>
+            <li><a href="Union-Department-ofthe-Shenandoah.html">Union Department ofthe Shenandoah </a></li>
+            <li><a href="The-Confederate-Army-of-the-Potomac.html">The Confederate Army of the Potomac</a></li>
+            <li><a href="The-Union-Army-of-the-Potomac.html">The Union Army of the Potomac</a></li>
+            <li class="hidden-xs hidden-sm "><a href="https://github.com/iperman16">Author Info</a></li>
+            <li class="hidden-xs hidden-sm "><a href="https://github.com/ZachPhillipsGary/HeatmapTimeline"><i class="fa fa-github"></i> Project Github</a></li>
+            <li class="hidden-xs hidden-sm "><a href="http://www.wooster.edu/academics/areas/history/">COW History</a></li>
+        </ul>
+        <hr>
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+                <div class="container-fluid">
+                    <div class="well row">
+                        <p> The following maps display a contrast between the rates of malarial disease in the Federal Army of the Potomac and its Confederate counterpart from July 1, 1861 to March 31, 1862. This data is taken from Table XXXVI of Charles Smart's Medical and Surgical History of the War of the Rebellion. (Smart, 103) The data on the heat maps displays the total number of malarial cases recorded monthly for each army between these dates. From the map, it can be concluded that the Federal Army of the Potomac suffered more from malarial disease in the late summer months than the Confederate Army of the Potomac.
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="hidden-xs hidden-sm col-md-1">
+                            <h1 id="moveLeft" class="timearrowleft"><i data-toggle="tooltip" title="Go backwards in time" data-placement="bottom" class="fa fa-arrow-circle-o-left"></i></h1></div>
+                        <div class="col-xs-12 col-sm-12 col-md-10" id="timeline1" class="timeline"></div>
+                        <div class="hidden-xs hidden-sm col-sm-1 col-md-1">
+                            <h1 id="moveRight" class="timearrowright"><i data-toggle="tooltip" title="Go forward in time" data-placement="bottom" class="fa fa-arrow-circle-o-right"></i></h1></div>
+
+                    </div>
+                    <div class="row">
+                        <div id="map1" class="map"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- begin modals -->
+
+
+        <!-- init bootstrap tooltips -->
+        <script>
+            $(document).ready(function() {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+
+        <script src="./js/main.js"></script>
+        <script>
+        var app =  new HeatMapTimeLine({mapId:"map1",timelineId:"timeline1",fileName:"./data/Rates_of_Malarial_Disease_in_the_Atlantic_Region,1861-1866.kml"});
+        </script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Confederate Army of Northern Virginia</title>
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.13.1/css/ol.css" type="text/css">
+    <script src="http://openlayers.org/en/v3.13.1/build/ol-debug.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/vis/4.11.0/vis.min.css" type="text/css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vis/4.11.0/vis.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <style>
+        #map {
+            height: 30%;
+        }
+
+        .nav-pills>li>a {
+            background-color: #D5DDF6;
+        }
+
+        .timearrowleft {
+            color: #D5DDF6;
+        }
+
+        .timearrowright:hover {
+            color: #4582ec;
+        }
+
+        .timearrowleft:hover {
+            color: #4582ec;
+        }
+
+        .timearrowright {
+            color: #D5DDF6;
+        }
+
+        #timeline {
+            width: 100%;
+        }
+
+        li>a {
+            border-color: #97B0F8;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+      <ul class="nav nav-pills">
+        <li><a  href="description.html">Home</a></li>
+            <li ><a  href="Rates-of-Malarial-Disease-in-the-Atlantic-Region,1861-1866.html">Rates of Malarial Disease in the Atlantic Region,1861-1866</a></li>
+            <li class="active"><a  href="Confederate-Army-of-Northern-Virginia.html">Confederate Army of Northern Virginia</a></li>
+            <li><a href="Union-Department-ofthe-Shenandoah.html">Union Department ofthe Shenandoah </a></li>
+            <li ><a href="The-Confederate-Army-of-the-Potomac.html">The Confederate Army of the Potomac</a></li>
+            <li ><a href="The-Union-Army-of-the-Potomac.html">The Union Army of the Potomac</a></li>
+            <li class="hidden-xs hidden-sm "><a href="https://github.com/iperman16">Author Info</a></li>
+            <li class="hidden-xs hidden-sm "><a href="https://github.com/ZachPhillipsGary/HeatmapTimeline"><i class="fa fa-github"></i> Project Github</a></li>
+            <li class="hidden-xs hidden-sm "><a href="http://www.wooster.edu/academics/areas/history/">COW History</a></li>
+        </ul>
+        <hr>
+        <div class="tab-content">
+          <div class="jumbotron">
+
+<h1>Intro</h1>
+<p>This digital map project has been conducted in partial fulfillment of the <a href="//www.wooster.edu/academics/research/is/">College of Wooster&rsquo;s Senior Independent Study.</a> This map project, displaying malarial data in Virginia and the Atlantic Region during the American Civil War, accompanies an Independent Study conducted by History Major and Geology Minor, Isabel Perman (College of Wooster class of 2016). This Independent Study aims to conduct an environmental history of Civil War Virginia through the examination of the natural environment and mosquito-borne disease. It makes the argument that the relationship that existed between the War and the natural environment was a dynamic one in which the War effected the land and the land effected the War. This map is purpose is to provide this I.S. with a spatial history component that displays the impact of malaria on the War.</p>
+<p>&nbsp;</p>
+<p>The data for this project has been taken from U.S. medical inspector Charles Smart&rsquo;s 1888 work, <em>The Medical and Surgical History of the War of the Rebellion. </em>Five separate maps displaying monthly malarial rates during the War make up this project. The maps under the first</p>
+<p><strong>Intro</strong>&nbsp;&nbsp;</p>
+<p>This digital map project has been conducted in partial fulfillment of the College of Wooster&rsquo;s Senior Independent Study. This map project, displaying malarial data in Virginia and the Atlantic Region during the American Civil War, accompanies an Independent Study conducted by History Major and Geology Minor, Isabel Perman (College of Wooster class of 2016). This Independent Study aims to conduct an environmental history of Civil War Virginia through the examination of the natural environment and mosquito-borne disease. It makes the argument that the relationship that existed between the War and the natural environment was a dynamic one in which the War effected the land and the land effected the War. This map is purpose is to provide this I.S. with a spatial history component that displays the impact of malaria on the War.</p>
+<p>&nbsp;</p>
+<p>The data for this project has been taken from U.S. medical inspector Charles Smart&rsquo;s 1888 work, <em>The Medical and Surgical History of the War of the Rebellion. </em>Five separate maps displaying monthly malarial rates during the War make up this project. The maps under the first tab compare the rates of malaria between the Federal and Confederate Armies of the Potomac from 1861-1862. The maps under the second tab compare the rates of malaria between the Federal Department of the Shenandoah and the Confederate Army of Virginia in 1862. The map under the third tab displays monthly malarial rates for every Federal army and department operating in the Atlantic Region from 1862-1866. The &ldquo;Atlantic Region&rdquo; is defined by Smart as consisting of the Middle Department, the Department of the Shenandoah, the Army of the Potomac, the Department of the Rappahannock, the Department of Virginia, the Department of North Carolina, the Department of the South, the Department of the East, the Department of Washington, and the Middle Division. (Smart, 19,98) In order to apply Smart&rsquo;s malarial data to a specific latitude and longitude, it was correlated to the locations of the armies and departments operating in the Atlantic Region based on the date. From the viewing of these maps, it can be concluded that the rates of malarial disease increased in the Atlantic Region of the U.S. in the summer months and as the War progressed. The rates of malaria in the summers of the later years of the War are the highest compared to the rest of Smart&rsquo;s data. The development of this map has provided my readers the opportunity to engage with my topic on a number of intellectual levels.</p>
+<p>tab compare the rates of malaria between the Federal and Confederate Armies of the Potomac from 1861-1862. The maps under the second tab compare the rates of malaria between the Federal Department of the Shenandoah and the Confederate Army of Virginia in 1862. The map under the third tab displays monthly malarial rates for every Federal army and department operating in the Atlantic Region from 1862-1866. The &ldquo;Atlantic Region&rdquo; is defined by Smart as consisting of the Middle Department, the Department of the Shenandoah, the Army of the Potomac, the Department of the Rappahannock, the Department of Virginia, the Department of North Carolina, the Department of the South, the Department of the East, the Department of Washington, and the Middle Division. (Smart, 19,98) In order to apply Smart&rsquo;s malarial data to a specific latitude and longitude, it was correlated to the locations of the armies and departments operating in the Atlantic Region based on the date. From the viewing of these maps, it can be concluded that the rates of malarial disease increased in the Atlantic Region of the U.S. in the summer months and as the War progressed. The rates of malaria in the summers of the later years of the War are the highest compared to the rest of Smart&rsquo;s data. The development of this map has provided my readers the opportunity to engage with my topic on a number of intellectual levels.</p>
+
+</div>
+<hr>
+<img class="img-responsive center-block" src="./css/woologo.png"/>
+
+        </div>
+        <!-- begin modals -->
+
+
+        <!-- init bootstrap tooltips -->
+        <script>
+            $(document).ready(function() {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+
+
+</body>
+</html>

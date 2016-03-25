@@ -1,50 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://earth.google.com/kml/2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <Document>
-        <name>The Rates of Malarial Disease in the Union Department of the Shenandoah (January-June, 1862)</name>
+        <name>The Rates of Malarial Disease in the Confederate Army of Virginia (January-June, 1862)</name>
         <atom:author>
             <atom:name>College of Wooster History Department</atom:name>
         </atom:author>
         <Folder>
-
-            <Placemark id="1862 Jan 31">
-                <name>208 - Union Department of the Shenandoah</name>
-                <cases>208</cases>
+  <Placemark id="1862 Jan 31">
+                <name>36 - Confederate Army of Northern Virginia</name>
+                <cases>36</cases>
                 <Point>
                     <coordinates>-78.85,38.483333,0</coordinates>
                 </Point>
             </Placemark>
   <Placemark id="1862 Feb 29">
-                <name>251 - Union Department of the Shenandoah</name>
-                <cases>251</cases>
+                <name>25 - Confederate Army of Northern Virginia</name>
+                <cases>25</cases>
                 <Point>
                     <coordinates>-78.85,38.483333,0</coordinates>
                 </Point>
             </Placemark>
   <Placemark id="1862 Mar 31">
-                <name>388 - Union Department of the Shenandoah</name>
-                <cases>388</cases>
+                <name>13 - Confederate Army of Northern Virginia</name>
+                <cases>13</cases>
                 <Point>
-                    <coordinates>-78.85,38.4833330</coordinates>
+                    <coordinates>-78.85,38.483333,0</coordinates>
                 </Point>
             </Placemark>
   <Placemark id="1862 Apr 30">
-                <name>273 - Union Department of the Shenandoah</name>
-                <cases>273</cases>
+                <name>34 - Confederate Army of Northern Virginia</name>
+                <cases>34</cases>
                 <Point>
                     <coordinates>-78.85,38.483333,0</coordinates>
                 </Point>
             </Placemark>
   <Placemark id="1862 May 31">
-                <name>132 - Union Department of the Shenandoah</name>
-                <cases>132</cases>
+                <name>339 - Confederate Army of Northern Virginia</name>
+                <cases>339</cases>
                 <Point>
                     <coordinates>-78.85,38.483333,0</coordinates>
                 </Point>
             </Placemark>
   <Placemark id="1862 Jun 30">
-                <name>253 - Union Department of the Shenandoah</name>
-                <cases>253</cases>
+                <name>520 - Confederate Army of Northern Virginia</name>
+                <cases>520</cases>
                 <Point>
                     <coordinates>-78.85,38.483333,0</coordinates>
                 </Point>

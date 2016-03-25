@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>The Rates of Malarial Disease in the Confederate Army of the Potomac (July, 1861-March, 1862)</name>
+        <atom:author>
+            <atom:name>College of Wooster History Department</atom:name>
+        </atom:author>
+        <Folder>
+
+            <Placemark id="1861 Jul 21">
+                <name>629 - First Battle of Bull Run(The Confederate Army of the Potomac)</name>
+                <cases>629</cases>
+                <Point>
+                    <coordinates>-77.5227,38.8147,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="1861 Aug 30">
+                <name>3390 - The Confederate Army of the Potomac</name>
+                <cases>3390</cases>
+                <Point>
+                    <coordinates>-76.249722,37.999167,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="1861 Sep 30">
+                <name>3478 - The Confederate Army of the Potomac</name>
+                <cases>3478</cases>
+                <Point>
+                    <coordinates>-76.249722,37.999167,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="1861 Oct 21">
+                <name>3211 - Battle of Ball's Bluff(The Confederate Army of the Potomac)</name>
+                <cases>3211</cases>
+                <Point>
+                    <coordinates>-77.5277,39.1282,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="1861 Nov 30">
+                <name>2069 - The Confederate Army of the Potomac</name>
+                <cases>2069</cases>
+                <Point>
+                    <coordinates>-76.249722,37.999167,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="1861 Dec 31">
+                <name>1625 - The Confederate Army of the Potomac</name>
+                <cases>1625</cases>
+                <Point>
+                    <coordinates>-76.249722,37.999167,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="1862 Jan 31">
+                <name>949 - The Confederate Army of the Potomac</name>
+                <cases>949</cases>
+                <Point>
+                    <coordinates>-76.249722,37.999167,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="1862 Feb 29">
+                <name>The Confederate Army of the Potomac</name>
+                <cases>821</cases>
+                <Point>
+                    <coordinates>-76.249722,37.999167,0</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark id="1862 Mar 31">
+                <name>609 - The Confederate Army of the Potomac</name>
+                <cases>609</cases>
+                <Point>
+                    <coordinates>-77.466667,37.533333,0</coordinates>
+                </Point>
+            </Placemark>
+
+        </Folder>
+    </Document>
+</kml>

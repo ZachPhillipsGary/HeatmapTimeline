@@ -1,5 +1,5 @@
 function HeatMapTimeLine(parameters) {
-  if(parameters.hasOwnProperty('mapId') && parameters.hasOwnProperty('timelineId')) {
+  if(parameters.hasOwnProperty('mapId') && parameters.hasOwnProperty('timelineId') && parameters.hasOwnProperty('fileName')) {
   var map = new ol.Map({
     target: parameters['mapId'],
     view: new ol.View({
@@ -21,7 +21,7 @@ var mapLayers = {
   }
 }
 
-  this.drawTimeline = function (drawPoint) {
+  this.drawTimeline = function (drawPoint,leftButton,rightButton) {
     const items = this.timelineElements;
 
       // create visualization
@@ -62,19 +62,35 @@ var mapLayers = {
                 //don't display
             }
           },properties);
-          currentFeatures.forEachFeature(function(val){console.log(val)});
+          currentFeatures.forEachFeature(function(val){ console.log(val) });
           var currentHeatMap = new ol.layer.Heatmap({ source: currentFeatures, blur: 35,
           radius: 50 });
           map.addLayer(raster);
           map.addLayer(currentHeatMap);
           map.render();
       });
+/**
+ * Move the timeline a given percentage to left or right
+ * @param {Number} percentage   For example 0.1 (left) or -0.1 (right)
+ */
+function move (percentage) {
+    var range = timeline.getWindow();
+    var interval = range.end - range.start;
+
+    timeline.setWindow({
+        start: range.start.valueOf() - interval * percentage,
+        end:   range.end.valueOf()   - interval * percentage
+    });
+}
+//create event listeners for movement
+document.getElementById('moveLeft').onclick  = function () { move( 0.2); };
+document.getElementById('moveRight').onclick = function () { move(-0.2); };
   };
 
 
 var vector = new ol.layer.Heatmap({
   source: new ol.source.Vector({
-    url: './data/fix.kml',
+    url: parameters['fileName'],
     projection: "EPSG:3857",
     format: new ol.format.KML({
       extractStyles: false
@@ -124,6 +140,5 @@ map.on('singleclick', function(evt) {
     console.log(ol.proj.transform([coordinates[0], coordinates[1]], 'EPSG:3857', new ol.source.OSM().getProjection()));
 
 }, this);
+
 };
-var app =  new HeatMapTimeLine({mapId:"map1",timelineId:"timeline1"});
-//var app2 =  new HeatMapTimeLine({mapId:"map1",timelineId:"timeline1"});
